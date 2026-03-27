@@ -1,0 +1,37 @@
+/* 上の黄色いヘッダー */
+.header {
+  background-color: #ffeb3b;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 左の青いサイドバー */
+.sidebar {
+  width: 200px;
+  background-color: #2196f3;
+  padding: 20px;
+  position: fixed;
+  top: 80px; /* ヘッダーの高さ分下げる */
+  left: 0;
+  height: 100%;
+  color: white;
+}
+
+/* サイドバーのリンク */
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* メインコンテンツ（フォーム） */
+.content {
+  margin-left: 240px; /* サイドバーの幅 + 余白 */
+  padding: 20px;
+  background-color: #f5e6c8;
+  min-height: 100vh;
+}

@@ -6,69 +6,60 @@
   <link rel="stylesheet" href="test.css">
 </head>
 <body>
+  <h2>世界一甘いお店</h2>
 
-  <!-- 上の黄色いヘッダー -->
-  <header class="header">
-    <h2>世界一甘いお店</h2>
-  </header>
-
-  <!-- 左の青いサイドバー -->
-
-    <nav>
+  <nav>
     <ul>
-      <a href="#">トップ</a>
-      <a href="#">新着情報</a>
-      <a href="#">おすすめのスイーツ</a>
-      <a href="#">お問い合わせ</a>
-    </ul> 
-    </nav>
+    <a href="#">トップ</a>
+    <a href="#">店舗案内</a>
+    <a href="#">おすすめのスイーツ</a>
+    <a href="#">お問い合わせ</a>
+    </ul>  
+  </nav>
 
-  <!-- メインコンテンツ（フォーム） -->
-  <main>
-    <form>
-      <table border="4">
-        <tr>
-          <td>お名前</td>
-          <td><input type="text" name="name" size="40"></td>
-        </tr>
-        <tr>
-          <td>お近くのお店</td>
-          <td>
-            <select name="store">
-              <option>北海道・東北</option>
-              <option>関東</option>
-              <option>中部</option>
-              <option>関西</option>
-              <option>中国・四国</option>
-              <option>九州・沖縄</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>電話番号</td>
-          <td><input type="text" name="phone" size="40"></td>
-        </tr>
-        <tr>
-          <td>メールアドレス</td>
-          <td><input type="text" name="email" size="40"></td>
-        </tr>
-        <tr>
-          <td>お問い合わせ種類</td>
-          <td>
-            <input type="radio" name="type" value="商品について"> 商品について
-            <input type="radio" name="type" value="従業員について"> 従業員について
-          </td>
-        </tr>
-        <tr>
-          <td>お問い合わせ内容</td>
-          <td>
-            <textarea name="content" cols="30" rows="5" placeholder="詳細を入力してください"></textarea>
-          </td>
-        </tr>
-      </table>
-      <input type="submit" value="送信">
-    </form>
-  </main>
-
+  <form>
+    <table border="4">
+      <tr>
+        <td>お名前</td>
+        <td><input type="text" name="name" size="40"></td>
+      </tr>
+      <tr>
+        <td>近くのお店</td>
+        <td>
+          <select name="store">
+            <option>北海道・東北</option>
+            <option>関東</option>
+            <option>中部</option>
+            <option>関西</option>
+            <option>中国・四国</option>
+            <option>九州・沖縄</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>電話番号</td>
+        <td><input type="text" name="phone" size="40"></td>
+      </tr>
+      <tr>
+        <td>メールアドレス</td>
+        <td><input type="text" name="email" size="40"></td>
+      </tr>
+      <tr>
+        <td>お問い合わせ種別</td>
+        <td>
+          <input type="radio" name="type" value="商品について"> 商品について
+          <input type="radio" name="type" value="店舗について"> 店舗について
+          <input type="radio" name="type" value="その他"> その他
+        </td>
+      </tr>
+      <tr>
+        <td>お問い合わせ内容</td>
+        <td>
+          <textarea name="content" cols="30" rows="5"></textarea>
+        </td>
+      </tr>
+    </table>
+    <input type="submit" value="送信">
+  </form>
 </body>
 </html>

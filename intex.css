@@ -1,53 +1,86 @@
+/* 全体のレイアウト調整 */
 body {
-    font-family:"Yu Gothic","Helvetica",sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  width: 1000px;          /* 画面いっぱいにしない */
+  margin: 0 auto;         /* 中央寄せ */
+  font-family: sans-serif;
 }
 
-main,section,header,footer,aside,nav{
-    padding: 20px;
- }
-
+/* ヘッダー部 */
 header {
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
+  width: 1000px;
+  height: 100px;
+  background-color: #ffe066; /* 黄色系 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
-
-.sidebar {
+/* サイドバー部 */
+nav {
   width: 200px;
-  background-color: #2196f3;
-  padding: 20px;
-  position: fixed;
-  top: 80px;
-  left: 0;
-  height: 100%;
-  color: white;
+  height: 500px;
+  background-color: #4dabf7; /* 青系 */
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
+nav ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
 
- nav {
-  display: block;
+nav ul li {
+  margin-bottom: 20px;
+}
+
+nav ul li a {
   color: white;
   text-decoration: none;
-  margin-bottom: 15px;
   font-size: 18px;
 }
 
-
-.content {
-  margin-left: 240px; 
+/* メイン部 */
+section {
+  width: 800px;
+  height: 500px;
+  background-color: #ffe8cc; /* ベージュ系 */
+  float: left;
   padding: 20px;
-  background-color: #f5e6c8;
-  min-height: 100vh;
+  box-sizing: border-box;
 }
 
-.vertical {
-display: flex;
-flex-direction: column;
-align-items: center; /* 中央揃え */
+/* テーブルを中央に配置 */
+table {
+  margin: 0 auto;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
+
+/* 送信ボタンを右寄せ */
+input[type="submit"] {
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+/* フッター部 */
+footer {
+  width: 1000px;
+  height: 80px;
+  background-color: #b197fc; /* 紫系 */
+  clear: both;
+  text-align: center;
+  line-height: 80px;
+  font-weight: bold;
 }

@@ -7,12 +7,14 @@ body {
     padding: 0;
 }
 
-.header {
-  background-color: #ffeb3b;
-  padding: 20px;
+main,section,header,footer,aside,nav{
+    padding: 20px;
+ }
+
+header {
+  background-color: #4CAF50;
+  color: white;
   text-align: center;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 
@@ -28,7 +30,7 @@ body {
 }
 
 
-.sidebar nav a {
+ nav {
   display: block;
   color: white;
   text-decoration: none;

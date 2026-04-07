@@ -1,14 +1,4 @@
 
-body {
-    font-family: "Yu Gothic", "Helvetica", sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    width: 500px;    
-    margin: 0 auto;    
-}
 
 main, section, header, footer, nav {
     padding: 20px;

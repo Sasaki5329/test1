@@ -1,11 +1,9 @@
-
-
 main, section, header, footer, nav {
     padding: 20px;
 }
 
 header {
-    width: 500px;
+    width: 610px;
     height: 100px;
     background-color: #ffd54f; 
     color: #333;
@@ -16,7 +14,7 @@ header {
 }
 
 nav {
-    width: 200px;
+    width: 150px;
     height: 500px;
     background-color: #90caf9; 
     float: left;
@@ -93,7 +91,7 @@ input[type="submit"]:hover {
 
 
 footer {
-    width: 500px;
+    width: 610px;
     height: 80px;
     background-color: #ce93d8; 
     color: white;
